@@ -2,7 +2,7 @@
 
 export default function (app) {
 
-  app.filter('excludeFrom', function() {
+  app.filter('filterCurrency', function() {
     return function(array, comp) {
       if (!array) {
         return;

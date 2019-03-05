@@ -6,12 +6,10 @@ function currencyConverterController(
   feePercantage,
   defaultFrom,
   defaultTo,
-  defaultPercantage,
-  currenciesCodes
+  defaultPercantage
 ) {
   "ngInject";
 
-  this.currenciesCodes = currenciesCodes;
   this.defaultFrom = defaultFrom;
   this.defaultTo = defaultTo;
   this.feePercantage = feePercantage;

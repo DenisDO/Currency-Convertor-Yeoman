@@ -8,5 +8,8 @@ export default class CurrencyConverterComponent {
         this.controller = currencyConverterController;
         this.templateUrl = currencyConverterTpl;
         this.controllerAs = 'curCont';
+        this.bindings = {
+            currenciesCodes: '<'
+        };
     }
 }
